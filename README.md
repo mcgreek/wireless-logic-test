@@ -38,10 +38,15 @@ Project specific files and folders listed below
 ## App classes
 
 App classes 
+
 app/Entity/*
+
 app/Parser/*
+
 app/ParserBuilder.php
+
 app/VidexProduct.php
+
 
 ## Migration files
 
