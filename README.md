@@ -15,10 +15,10 @@ Copy environment file from example
 cp .env.example .env
 ``` 
 
-Genetate autoload files
+Run database migration
 
 ```bash
-composer dump-autoload
+php artisan migrate:fresh
 ```
 
 # Run parser
