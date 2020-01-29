@@ -23,6 +23,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $databaseFile = config('database.connections.sqlite.database');
+        if (!file_exists($databaseFile)) {
+            file_put_contents($databaseFile, '');
+        }
     }
 }
